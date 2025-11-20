@@ -25,17 +25,17 @@ My name is Pulkit. I'm a undergraduate from 🇮🇳 ![wakatime](https://visitor
 <!--START_SECTION:blog-posts-->
 | Title | Date | Image |
 | ----- | ---- | ----- |
-| [Deploying a Full Portfolio Stack on Coolify: Postgres, Redis & a NextJs app](https://blogs.pulkitxm.com/deploying-postgres-redis-and-a-nextjs-app-on-coolify) | Jul 26, 2025 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1753509010192/e874cfb7-6344-498b-a6ae-6fd75f835d06.png?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://blogs.pulkitxm.com/deploying-postgres-redis-and-a-nextjs-app-on-coolify)
-| [Building a Contact Form in Next.js with Resend Email Integration](https://blogs.pulkitxm.com/emails-with-resend) | Dec 13, 2024 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1753600303764/b13d1a43-9b3d-44ad-884b-cc8bfd40c153.png?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://blogs.pulkitxm.com/emails-with-resend)
-| [Boost Your Link Previews: Implementing Open Graph Images in Next.js](https://blogs.pulkitxm.com/open-graph-images-in-nextjs) | Nov 15, 2024 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731658433998/70bdbb5d-1123-478d-b35a-316169ce5615.png?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://blogs.pulkitxm.com/open-graph-images-in-nextjs)
-| [Setting Up Prisma ORM with PostgreSQL](https://blogs.pulkitxm.com/setting-up-prisma-orm-with-postgresql) | Aug 17, 2024 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734016058521/1d653d70-3204-40fa-9272-58298cd8e663.webp?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://blogs.pulkitxm.com/setting-up-prisma-orm-with-postgresql)
+| [Deploying a Full Portfolio Stack on Coolify: Postgres, Redis & a NextJs app](https://pulkitxm.hashnode.dev/deploying-postgres-redis-and-a-nextjs-app-on-coolify) | Jul 26, 2025 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1753509010192/e874cfb7-6344-498b-a6ae-6fd75f835d06.png?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://pulkitxm.hashnode.dev/deploying-postgres-redis-and-a-nextjs-app-on-coolify)
+| [Building a Contact Form in Next.js with Resend Email Integration](https://pulkitxm.hashnode.dev/emails-with-resend) | Dec 13, 2024 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1753600303764/b13d1a43-9b3d-44ad-884b-cc8bfd40c153.png?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://pulkitxm.hashnode.dev/emails-with-resend)
+| [Boost Your Link Previews: Implementing Open Graph Images in Next.js](https://pulkitxm.hashnode.dev/open-graph-images-in-nextjs) | Nov 15, 2024 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731658433998/70bdbb5d-1123-478d-b35a-316169ce5615.png?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://pulkitxm.hashnode.dev/open-graph-images-in-nextjs)
+| [Setting Up Prisma ORM with PostgreSQL](https://pulkitxm.hashnode.dev/setting-up-prisma-orm-with-postgresql) | Aug 17, 2024 | [<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734016058521/1d653d70-3204-40fa-9272-58298cd8e663.webp?w=300&h=157&fit=crop&crop=entropy&auto=compress,format&format=webp" width="200px"  />](https://pulkitxm.hashnode.dev/setting-up-prisma-orm-with-postgresql)
 <!--END_SECTION:blog-posts-->
 
 ---
 
 <!--START_SECTION:top-followers-heading-->
 
-### :sparkles: [My followers (367)](https://github.com/Pulkitxm?tab=followers)
+### :sparkles: [My followers (366)](https://github.com/Pulkitxm?tab=followers)
 
 <!--End_SECTION:top-followers-heading-->
 
@@ -298,7 +298,6 @@ My name is Pulkit. I'm a undergraduate from 🇮🇳 ![wakatime](https://visitor
 <a href="https://github.com/ronakptl996" target="_blank"><img src="https://avatars.githubusercontent.com/u/72141080?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/ronit-1404" target="_blank"><img src="https://avatars.githubusercontent.com/u/88834510?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/roy4262" target="_blank"><img src="https://avatars.githubusercontent.com/u/113916846?s=50" alt="Follower" width="50"/></a>
-<a href="https://github.com/rr3s1" target="_blank"><img src="https://avatars.githubusercontent.com/u/75430531?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/RRAJ644" target="_blank"><img src="https://avatars.githubusercontent.com/u/79391519?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/Ruchitha1608" target="_blank"><img src="https://avatars.githubusercontent.com/u/93268263?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/rudradev-wargstech" target="_blank"><img src="https://avatars.githubusercontent.com/u/198734130?s=50" alt="Follower" width="50"/></a>
@@ -444,8 +443,8 @@ Python            35 hrs 54 mins  ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 <p align="center">
       This <i>README</i> file is refreshed <b>every 24 hours</b>!<br/>
-      Last refresh: <b>Nov 19, 2025, 7:48 AM IST</b><br/>
-      Number of workflows: <b>1288</b><br/><br/>
+      Last refresh: <b>Nov 20, 2025, 7:46 AM IST</b><br/>
+      Number of workflows: <b>1294</b><br/><br/>
       Made with ❤️ by Pulkit
     </p>
 
