@@ -35,7 +35,7 @@ My name is Pulkit. I'm a undergraduate from 🇮🇳 ![wakatime](https://visitor
 
 <!--START_SECTION:top-followers-heading-->
 
-### :sparkles: [My followers (367)](https://github.com/Pulkitxm?tab=followers)
+### :sparkles: [My followers (366)](https://github.com/Pulkitxm?tab=followers)
 
 <!--End_SECTION:top-followers-heading-->
 
@@ -102,9 +102,9 @@ My name is Pulkit. I'm a undergraduate from 🇮🇳 ![wakatime](https://visitor
 <a href="https://github.com/Auti29" target="_blank"><img src="https://avatars.githubusercontent.com/u/72187757?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/Ayaan-tech" target="_blank"><img src="https://avatars.githubusercontent.com/u/118003813?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/ayush-khatrii" target="_blank"><img src="https://avatars.githubusercontent.com/u/108052277?s=50" alt="Follower" width="50"/></a>
-<a href="https://github.com/Ayushaff" target="_blank"><img src="https://avatars.githubusercontent.com/u/79182175?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/ayushflows" target="_blank"><img src="https://avatars.githubusercontent.com/u/124663413?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/AyushRajSinghParihar" target="_blank"><img src="https://avatars.githubusercontent.com/u/145347508?s=50" alt="Follower" width="50"/></a>
+<a href="https://github.com/AyushSharma971" target="_blank"><img src="https://avatars.githubusercontent.com/u/79182175?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/azra316" target="_blank"><img src="https://avatars.githubusercontent.com/u/139526226?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/Basharkhan7776" target="_blank"><img src="https://avatars.githubusercontent.com/u/146465667?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/Batty-sk" target="_blank"><img src="https://avatars.githubusercontent.com/u/109340745?s=50" alt="Follower" width="50"/></a>
@@ -390,7 +390,6 @@ My name is Pulkit. I'm a undergraduate from 🇮🇳 ![wakatime](https://visitor
 <a href="https://github.com/uurbanbuddha" target="_blank"><img src="https://avatars.githubusercontent.com/u/126100574?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/v-ju" target="_blank"><img src="https://avatars.githubusercontent.com/u/106214179?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/Vaibhaav-Tiwari" target="_blank"><img src="https://avatars.githubusercontent.com/u/155460282?s=50" alt="Follower" width="50"/></a>
-<a href="https://github.com/vasilirigels" target="_blank"><img src="https://avatars.githubusercontent.com/u/50117809?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/vibhorjoshi" target="_blank"><img src="https://avatars.githubusercontent.com/u/105739194?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/Vidushi2709" target="_blank"><img src="https://avatars.githubusercontent.com/u/159937181?s=50" alt="Follower" width="50"/></a>
 <a href="https://github.com/vineet-op" target="_blank"><img src="https://avatars.githubusercontent.com/u/103635529?s=50" alt="Follower" width="50"/></a>
@@ -444,8 +443,8 @@ Python            35 hrs 54 mins  ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 <p align="center">
       This <i>README</i> file is refreshed <b>every 24 hours</b>!<br/>
-      Last refresh: <b>Nov 25, 2025, 7:50 AM IST</b><br/>
-      Number of workflows: <b>1313</b><br/><br/>
+      Last refresh: <b>Nov 26, 2025, 7:50 AM IST</b><br/>
+      Number of workflows: <b>1317</b><br/><br/>
       Made with ❤️ by Pulkit
     </p>
 
