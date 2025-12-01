@@ -1,0 +1,185 @@
+% Document class and basic packages
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{textcase}
+
+% Document setup
+\definecolor{headerColor}{RGB}{0,0,0}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\setlength{\footskip}{4.08003pt}
+
+% Font configuration
+\input{glyphtounicode}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\rmdefault}{ptm}
+
+% Page layout
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom%
+\raggedright%
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{headerColor}\titlerule%
+\vspace{-5pt}]
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{ #2} \\
+      \textit{#3} & \textit{ #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+\begin{center}
+	{\Huge \scshape Pulkit} \\ \vspace{3pt}
+	New Delhi, India \\ \vspace{3pt}
+	\small
+	\href{https://pulkitxm.com/}{\raisebox{-0.2\height}\faLink\ \underline{pulkitxm.com}} ~
+	\href{mailto:kpulkit15234@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{kpulkit15234@gmail.com}} ~
+	\href{https://www.linkedin.com/in/pulkitxm}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/pulkitxm}} ~
+	\href{https://github.com/Pulkitxm}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/pulkitxm}}
+	\vspace{-8pt}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart%
+\resumeSubheading%
+{Bachelor of Technology in Computer Science}{Gurugram, Haryana, India}
+{Dronacharya College of Engineering}{Oct. 2022 – Present}
+\resumeSubHeadingListEnd%
+
+\section{Experience}
+\resumeSubHeadingListStart%
+
+\resumeSubheading%
+{Software Engineer}{Feb. 2025 - Present}
+{\href{https://www.magicapi.com}{MagicAPI}}{Remote, San Francisco, CA, USA}
+\resumeItemListStart%
+\resumeItem{Enhanced platform security and user experience through the integration of Google and GitHub SSO, reducing login friction and improving onboarding.}
+\resumeItem{Optimized platform performance by caching and Elasticsearch integration, cutting landing page LCP from 8.5s to 1.9s and improving Core Web Vitals for higher SEO rankings.}
+\resumeItem{Introduced Google and GitHub SSO, reducing signup friction and boosting user activation during Product Hunt campaigns.}
+\resumeItem{Led a full redesign of the seller dashboard using Shadcn UI and advanced charting, improving API usage visibility, revenue tracking, and decision-making for all the sellers.}
+\resumeItemListEnd%
+
+\resumeSubheading%
+{Software Engineer}{Feb. 2025 - March 2025}
+{\href{https://www.crowdvolt.com}{CrowdVolt (YC W24)}}{Remote, NYC}
+\resumeItemListStart%
+\resumeItem{Implemented ESLint and Prettier to enforce consistent coding standards, improving code quality.}
+\resumeItem{Optimized website performance through code refactoring and asset optimization, enhancing load times.}
+\resumeItem{Resolved critical bugs affecting user experience and platform stability, ensuring a smooth experience.}
+\resumeItem{Collaborated with the design team to refine UI/UX and enhance accessibility across the platform.}
+\resumeItemListEnd%
+
+\resumeSubheading%
+{Full Stack Engineer Intern}{April 2024 - Sept. 2024}
+{\href{https://www.datawavelabs.io/}{Datawavelabs}}{Remote, India}
+\resumeItemListStart%
+\resumeItem{Enhanced authentication security by implementing JWT tokens and Google OAuth integration for user access}
+\resumeItem{Developed multi-cloud integration system for AWS, Azure, and GCP, enabling users to manage resources through a unified dashboard}
+\resumeItem{Automated Docker container deployment for cluster services with real-time status monitoring, significantly reducing manual configuration}
+\resumeItemListEnd%
+
+\resumeSubHeadingListEnd%
+\vspace{-14pt}
+
+\section{Technical Projects}
+\vspace{-1pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt,topsep=0pt,partopsep=0pt]
+
+	\item \textbf{\href{https://devolympus.deviatorsdce.tech}{Devolympus Hackathon Platform}} $|$ \emph{NextJS, PostgreSQL, GCP, OAuth 2.0}\hfill {April 2024}
+	      \begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,topsep=0pt,partopsep=0pt]
+		      \item Developed a full hackathon management system that processed 350+ user registrations and coordinated 80 teams, reducing administrative workload by 80\%.
+		      \item Implemented secure OAuth 2.0 authentication via Google Cloud Platform, designed APIs for team registration, payment processing, and document management.
+		      \item Developed an admin dashboard with role-based access control, enabling event organizers to review applications, manage selection processes, and automate participant communications.
+	      \end{itemize}
+
+	\item \textbf{\href{https://deployit.live/}{Deployit}} $|$ \emph{NextJS, Docker, Redis, Ec2, Deployment Pipeline, Shell Scripting}\hfill {August 2024}
+	      \begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,topsep=0pt,partopsep=0pt]
+		      \item Built a deployment platform with NextJS, Docker, and EC2, enabling repository deployments via custom slug URLs with automated build and deployment pipelines.
+		      \item Implemented Redis-based deployment queueing, shell scripting, and CDN integration to streamline operations, improve scalability, and deliver assets reliably.
+	      \end{itemize}
+
+\end{itemize}
+\vspace{-8pt}
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt]
+	\item \textbf{Languages \& Core:} TypeScript, JavaScript, Python, Java, C++, SQL, Node.js, Express.js, Hono, FastAPI
+	\item \textbf{Frontend \& UI:} NextJS, React.js, HTML5, CSS3, Tailwind CSS, Material-UI, Redux, Shadcn/ui
+	\item \textbf{Infrastructure:} Docker, AWS (EC2, S3, CloudFront), Azure, GCP, CI/CD, GitHub Actions, PostgreSQL, MongoDB, Redis
+	\item \textbf{Tools \& Protocols:} Git, REST, GraphQL, JWT, OAuth 2.0, Prisma ORM, Jest, Cypress, Bcrypt
+\end{itemize}
+\vspace{-6pt}
+
+\section{Leadership \& Achievements}
+\begin{itemize}[leftmargin=*,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt]
+	\item \textbf{ICPC Amritapuri 2023 Regionalist}: Qualified for the regional round of the global programming competition.
+	\item \textbf{Gurugram University Ideathon Winner}: Secured first place for our AI-driven travel solutions, awarded by the Honorable Chief Minister of Haryana.
+\end{itemize}
+
+\end{document}
