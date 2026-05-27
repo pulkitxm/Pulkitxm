@@ -1,0 +1,23 @@
+name: Update Latest Blogs
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  update-blogs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Update blogs
+        run: ./scripts/update-blogs.sh
