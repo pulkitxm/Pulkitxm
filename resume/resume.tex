@@ -3,7 +3,6 @@
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
@@ -50,6 +49,8 @@
 }{}{0em}{}[\color{headerColor}\titlerule%
 \vspace{-5pt}]
 \pdfgentounicode=1
+% Reproducible PDF (no random ID)
+\pdftrailerid{}
 
 \newcommand{\resumeItem}[1]{
   \item{
@@ -98,7 +99,7 @@
 	{\Huge \scshape Pulkit} \\ \vspace{3pt}
 	New Delhi, India \\ \vspace{3pt}
 	\small
-	\href{https://pulkitxm.com/}{\raisebox{-0.2\height}\faLink\ \underline{pulkitxm.com}} ~
+	\href{https://pulkitxm.com}{\raisebox{-0.2\height}\faLink\ \underline{pulkitxm.com}} ~
 	\href{mailto:kpulkit15234@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{kpulkit15234@gmail.com}} ~
 	\href{https://www.linkedin.com/in/pulkitxm}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/pulkitxm}} ~
 	\href{https://github.com/Pulkitxm}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/pulkitxm}}
@@ -119,29 +120,29 @@
 {Software Engineer}{Feb. 2025 - Present}
 {\href{https://www.magicapi.com}{MagicAPI}}{Remote, San Francisco, CA, USA}
 \resumeItemListStart%
-\resumeItem{Enhanced platform security and user experience through the integration of Google and GitHub SSO, reducing login friction and improving onboarding.}
-\resumeItem{Optimized platform performance by caching and Elasticsearch integration, cutting landing page LCP from 8.5s to 1.9s and improving Core Web Vitals for higher SEO rankings.}
-\resumeItem{Introduced Google and GitHub SSO, reducing signup friction and boosting user activation during Product Hunt campaigns.}
-\resumeItem{Led a full redesign of the seller dashboard using Shadcn UI and advanced charting, improving API usage visibility, revenue tracking, and decision-making for all the sellers.}
+\resumeItem{Built ETL pipeline using BullMQ workers on Kubernetes to convert traces into datasets, with Redis handling async background jobs.}
+\resumeItem{Led AWS migration from OVHCloud - set up EKS clusters, ECR for images, S3 for storage, CodeBuild CI/CD, WAF, and IAM access within VPC.}
+\resumeItem{Built traces UI for debugging agent runs (timeline, flow graphs, filters) and datasets UI for evaluating AI agents.}
+\resumeItem{Built voucher/credit system on {\href{https://api.market}{API.market}} distributing \$6.3K+ with support for targeted (email-specific) and public (limit-based) campaigns.}
+\resumeItem{Developed wallet system on {\href{https://api.market}{API.market}} processing \$50K+ in transactions (23,758+ operations, 1,165+ users) with real-time balance deduction for API usage.}
 \resumeItemListEnd%
 
 \resumeSubheading%
 {Software Engineer}{Feb. 2025 - March 2025}
 {\href{https://www.crowdvolt.com}{CrowdVolt (YC W24)}}{Remote, NYC}
 \resumeItemListStart%
-\resumeItem{Implemented ESLint and Prettier to enforce consistent coding standards, improving code quality.}
-\resumeItem{Optimized website performance through code refactoring and asset optimization, enhancing load times.}
-\resumeItem{Resolved critical bugs affecting user experience and platform stability, ensuring a smooth experience.}
-\resumeItem{Collaborated with the design team to refine UI/UX and enhance accessibility across the platform.}
+\resumeItem{Set up ESLint and Prettier configs to enforce coding standards across the codebase.}
+\resumeItem{Improved site performance using lazy loading, code splitting, and asset optimization for faster load times.}
+\resumeItem{Fixed critical bugs affecting user experience and platform stability.}
 \resumeItemListEnd%
 
 \resumeSubheading%
 {Full Stack Engineer Intern}{April 2024 - Sept. 2024}
-{\href{https://www.datawavelabs.io/}{Datawavelabs}}{Remote, India}
+{\href{https://www.datawavelabs.io}{Datawavelabs}}{Remote, India}
 \resumeItemListStart%
-\resumeItem{Enhanced authentication security by implementing JWT tokens and Google OAuth integration for user access}
-\resumeItem{Developed multi-cloud integration system for AWS, Azure, and GCP, enabling users to manage resources through a unified dashboard}
-\resumeItem{Automated Docker container deployment for cluster services with real-time status monitoring, significantly reducing manual configuration}
+\resumeItem{Built authentication system with JWT tokens, Google OAuth sign-in, and role-based access control.}
+\resumeItem{Created multi-cloud integration(¡AWS, Azure etc.) for so users could manage all cloud resources from one dashboard.}
+\resumeItem{Set up automated Docker container deployment with real-time status updates using Event Source.}
 \resumeItemListEnd%
 
 \resumeSubHeadingListEnd%
@@ -151,17 +152,18 @@
 \vspace{-1pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt,topsep=0pt,partopsep=0pt]
 
-	\item \textbf{\href{https://devolympus.deviatorsdce.tech}{Devolympus Hackathon Platform}} $|$ \emph{NextJS, PostgreSQL, GCP, OAuth 2.0}\hfill {April 2024}
+	\item \textbf{\href{https://devolympus.deviatorsclub.tech}{Devolympus Hackathon Platform}} $|$ \emph{NextJS, PostgreSQL, GCP, OAuth 2.0}\hfill {April 2024}
 	      \begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,topsep=0pt,partopsep=0pt]
-		      \item Developed a full hackathon management system that processed 350+ user registrations and coordinated 80 teams, reducing administrative workload by 80\%.
-		      \item Implemented secure OAuth 2.0 authentication via Google Cloud Platform, designed APIs for team registration, payment processing, and document management.
-		      \item Developed an admin dashboard with role-based access control, enabling event organizers to review applications, manage selection processes, and automate participant communications.
+		      \item Built hackathon management system handling 350+ registrations and 80 teams, cutting admin work by 80\%.
+		      \item Added Google OAuth login, built REST APIs for team registration, payment management, and document uploads to GCP Storage.
+		      \item Created admin dashboard with role-based access and PostgreSQL/Prisma backend for managing applications, teams, payments, and sending bulk emails.
 	      \end{itemize}
 
-	\item \textbf{\href{https://deployit.live/}{Deployit}} $|$ \emph{NextJS, Docker, Redis, Ec2, Deployment Pipeline, Shell Scripting}\hfill {August 2024}
+	\item \textbf{\href{https://github.com/pulkitxm/deployIt}{Deployit}} $|$ \emph{NextJS, Docker, Redis, EC2, Shell Scripting}\hfill {August 2024}
 	      \begin{itemize}[leftmargin=*,itemsep=1pt,parsep=0pt,topsep=0pt,partopsep=0pt]
-		      \item Built a deployment platform with NextJS, Docker, and EC2, enabling repository deployments via custom slug URLs with automated build and deployment pipelines.
-		      \item Implemented Redis-based deployment queueing, shell scripting, and CDN integration to streamline operations, improve scalability, and deliver assets reliably.
+		      \item Built deployment platform where users can deploy repos via custom slug URLs with automated build pipelines.
+		      \item Used Redis for deployment queues, shell scripts for builds, and CloudFront CDN for serving static assets.
+		      \item Set up reverse proxy with Nginx to route traffic to deployed containers based on custom slugs.
 	      \end{itemize}
 
 \end{itemize}
@@ -169,17 +171,19 @@
 
 \section{Technical Skills}
 \begin{itemize}[leftmargin=*,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt]
-	\item \textbf{Languages \& Core:} TypeScript, JavaScript, Python, Java, C++, SQL, Node.js, Express.js, Hono, FastAPI
-	\item \textbf{Frontend \& UI:} NextJS, React.js, HTML5, CSS3, Tailwind CSS, Material-UI, Redux, Shadcn/ui
-	\item \textbf{Infrastructure:} Docker, AWS (EC2, S3, CloudFront), Azure, GCP, CI/CD, GitHub Actions, PostgreSQL, MongoDB, Redis
-	\item \textbf{Tools \& Protocols:} Git, REST, GraphQL, JWT, OAuth 2.0, Prisma ORM, Jest, Cypress, Bcrypt
+	\item \textbf{Languages \& Core:} TypeScript, JavaScript, Python, C++, SQL, Node.js, Express.js, Hono, FastAPI
+	\item \textbf{Frontend \& UI:} NextJS, React.js, Tailwind CSS, Shadcn/ui, Redux, HTML5, CSS3
+	\item \textbf{Infrastructure:} Docker, Kubernetes, AWS (EKS, EC2, S3, ECR, CodeBuild, WAF), Azure, GCP, GitHub Actions
+	\item \textbf{Databases:} PostgreSQL, MongoDB, Redis, Elasticsearch
+	\item \textbf{Tools:} Git, BullMQ, Prisma ORM, JWT, OAuth 2.0, REST, GraphQL
 \end{itemize}
 \vspace{-6pt}
 
 \section{Leadership \& Achievements}
 \begin{itemize}[leftmargin=*,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt]
+	\item \textbf{Chairperson, Deviators Coding Club (2024-2025)}: Founded and led an independent college coding club. Organized workshops, tech events, and a 36-hour hackathon with 350+ participants.
 	\item \textbf{ICPC Amritapuri 2023 Regionalist}: Qualified for the regional round of the global programming competition.
-	\item \textbf{Gurugram University Ideathon Winner}: Secured first place for our AI-driven travel solutions, awarded by the Honorable Chief Minister of Haryana.
+	\item \textbf{Gurugram University Ideathon Winner}: Secured first place for AI-driven travel solutions, awarded by the Chief Minister of Haryana.
 \end{itemize}
 
 \end{document}

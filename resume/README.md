@@ -11,5 +11,5 @@ You can download my resume by clicking the link below:
 
 ## LaTeX Source
 
-You can view the LaTeX source code for this resume in `resume.tex`.
+You can view the LaTeX source code for this resume in [`resume.tex`](./resume.tex).
 
