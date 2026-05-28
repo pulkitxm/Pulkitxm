@@ -35,6 +35,7 @@ I try to write the post I wish I'd found mid-debug. Recent ones:
 - [Cron Jobs with BullMQ](https://pulkitxm.com/cron-jobs-with-bullmq)
 - [Invisible Scissors](https://pulkitxm.com/clip-path-reveals)
 
+
 → All of it lives at **[pulkitxm.com](https://pulkitxm.com)**. I also talked through a lot of this on a podcast with **Harkirat Singh**!!
 
 [![](./media/pod.png)](https://youtu.be/tmITb7u662M)
